@@ -1,0 +1,14 @@
+.bg-dark {
+    background-color: #000000 !important; 
+  }
+
+
+  @media (max-width: 600px) {
+    .logo{
+  width: 45%;
+    }
+  }
+
+.col{
+margin-top: 3em;
+}
