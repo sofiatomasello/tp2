@@ -17,7 +17,8 @@ margin: 0 auto;
 
 
 .text-center{
-  margin: 2em;
+  margin: 0em;
+  margin-top: 1em;
   text-align: justify !important;
   
 }
@@ -71,7 +72,7 @@ padding: 0.5em;
 
 
 .conteinernews{
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -79,15 +80,33 @@ padding: 0.5em;
 
 
 /* Estilos para los links */
-a:hover { color: red !important;}
-a:visited { color: rgb(255, 228, 27) !important;}
-a:active {color: rgb(45, 9, 247) !important;}
 
+a:link {color: #ffffff;}
+a:visited{ color: rgba(29, 9, 210, 0.988); }
+a:hover { background-color: #ba0bff;}
+a:active{color: rgb(218, 28, 28);}
+
+
+form{
+  width: 100%;
+}
+.conteinerform {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Esto centra verticalmente */
+  background-color: black;
+  padding: 2em;
+ 
+  margin: 0 auto;
+  margin-top: 5em;
+  color: white; /* Para que el texto sea visible sobre el fondo negro */
+}
 
 
 
 .conteinerhistoria{
-width: 80%;
+width: 90%;
 display: flex;
 align-items: center;
 margin: 0 auto;
@@ -197,3 +216,12 @@ border-radius: 0.5em;
               height: auto;
             }
             }
+
+
+.footer{
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+ padding: 0.5em;
+  background-color: black;
+ }
