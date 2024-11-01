@@ -64,6 +64,13 @@ padding: 0.5em;
   margin-bottom: 3em;
 }
 
+.conteinerconocerlo{
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
 .conteinerropa{
   width: 90%;
   margin: 0 auto;
@@ -99,7 +106,7 @@ form{
   padding: 2em;
  
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top:1em;
   color: white; /* Para que el texto sea visible sobre el fondo negro */
 }
 
@@ -147,6 +154,10 @@ border-radius: 0.5em;
     
     }
 
+    .conteinerform {
+      width: 70%;
+
+    }
 
     
 }
@@ -165,6 +176,10 @@ border-radius: 0.5em;
           height: auto;
         }
       
+        .conteinerform {
+          width: 50%;
+
+        }
   }
 
 
@@ -214,6 +229,12 @@ border-radius: 0.5em;
             .videojustinchico{
               width: 80%;
               height: auto;
+            }
+
+
+            .conteinerform {
+              width: 50%;
+  
             }
             }
 
