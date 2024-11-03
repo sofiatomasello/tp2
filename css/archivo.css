@@ -20,8 +20,13 @@ margin: 0 auto;
   margin: 0em;
   margin-top: 1em;
   text-align: justify !important;
-  
 }
+
+.text-start{
+  margin: 2em;
+  text-align: justify !important;
+  }
+  
 .conteineralbums{
   width: 80%;
 text-align: center;
@@ -33,11 +38,7 @@ margin-bottom: 15em;
 .conteineralbums img{
   width: 70%;
   margin-bottom: 1em;
-
 }
-
-
-
 
 /* Cambiar el color de menu hambuerguesa pero no funciona */
 .navbar-toggler-icon{
@@ -46,10 +47,6 @@ padding: 0.5em;
 border-radius: 0.3em;
 }
 
-.text-start{
-margin: 2em;
-text-align: justify !important;
-}
 
 .conteinerfotos img{
 width: 100%;
@@ -66,11 +63,28 @@ padding: 0.5em;
 
 .conteinerconocerlo{
   width: 90%;
-  align-items: center;
+  justify-content: center;
+text-align: center;
   margin: 0 auto;
   margin-top: 2em;
 }
 
+.conteinercolaboraciones{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+#modalColaboraciones .modal-body {
+  background-color: #000000;
+}
+
+#modalColaboraciones .carousel-item p {
+  color: #FFFFFF;
+}
 .conteinerropa{
   width: 90%;
   margin: 0 auto;
@@ -80,7 +94,7 @@ padding: 0.5em;
 
 .conteinernews{
   width: 90%;
-  display: flex;
+
   align-items: center;
   margin: 0 auto;
 }
@@ -88,15 +102,16 @@ padding: 0.5em;
 
 /* Estilos para los links */
 
-a:link {color: #ffffff;}
-a:visited{ color: rgba(29, 9, 210, 0.988); }
-a:hover { background-color: #ba0bff;}
-a:active{color: rgb(218, 28, 28);}
+a:link {color: #ffffff !important;}
+a:visited{ color: rgba(127, 191, 255, 0.988) !important; }
+a:hover { color: #ba0bff !important;}
+a:active{color: rgb(218, 28, 28) !important;}
 
 
 form{
   width: 100%;
 }
+
 .conteinerform {
   width: 100%;
   display: flex;
@@ -104,13 +119,10 @@ form{
   align-items: center; /* Esto centra verticalmente */
   background-color: black;
   padding: 2em;
- 
   margin: 0 auto;
   margin-top:1em;
   color: white; /* Para que el texto sea visible sobre el fondo negro */
 }
-
-
 
 .conteinerhistoria{
 width: 90%;
@@ -119,6 +131,7 @@ align-items: center;
 margin: 0 auto;
 margin-top: 5em;
 }
+
 .videojustinchico{
   width: 100%;
   height: auto;
@@ -144,7 +157,35 @@ border: 0.1em solid #000000;
 border-radius: 0.5em;
 }
 
+.welcome-drew {
+  padding:1em;
+}
 
+.welcome-drew img {
+  padding:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.videoentrevista{
+  margin-top: 3em;
+  width: 100%;
+}
+
+.footer{
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+ padding: 0.5em;
+  background-color: black;
+ }
+
+@media (max-width: 575px) {
+  .welcome-drew img {
+    max-width: 60%;
+  }
+}
 
 /* Para pantallas medianas */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -205,13 +246,6 @@ border-radius: 0.5em;
             article .rounded.mx-auto.d-block{
               width: 100%;
             }
-        
-
-            .contenedorgaleria{
-              width: 90%;
-          float: right;
-            }
-
 
             .contenedorgaleria img {
               text-align: center;
@@ -236,13 +270,13 @@ border-radius: 0.5em;
               width: 50%;
   
             }
+
+            .videoentrevista{
+              width: 70%;
+            }
+
+  
+            
             }
 
 
-.footer{
-  color: white;
-  margin-bottom: 1em;
-  text-align: center;
- padding: 0.5em;
-  background-color: black;
- }
