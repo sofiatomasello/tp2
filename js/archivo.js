@@ -11,7 +11,7 @@ botonEnviar.addEventListener('click', function() {
     if (email.value.trim() === "" || comentario.value.trim() === "") {
        alert("Por favor, completa ambos campos antes de enviar.");
     } else if(!validarEmail()) {
-       alert("Tu email no es válido.");
+       alert("Tu email no es válido, utiliza @.");
     } else {
         $('#emailModal').modal('show');
         contactoForm.style.display = 'none';

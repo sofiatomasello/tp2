@@ -103,10 +103,15 @@ text-align: center;
 /* Estilos para los links */
 
 a:link {color: #ffffff !important;}
-a:visited{ color: rgba(127, 191, 255, 0.988) !important; }
+a:visited{ color: rgba(255, 255, 255, 0.988) !important; }
 a:hover { color: #ba0bff !important;}
 a:active{color: rgb(218, 28, 28) !important;}
 
+
+ .modal-body{
+  background-color: rgb(81, 77, 77);
+  color: white;
+}
 
 form{
   width: 100%;
