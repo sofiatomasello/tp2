@@ -16,8 +16,9 @@ modalColaboraciones.addEventListener('hidden.bs.modal', function () {
    stopAudios();
 });
 
-// Al cambair el slide, se reproduce la canción según al slide al que hayas cambiado
+// Al cambair el slide, se reproduce la canción según al slide al que hayas cambiado //Utilizo boostrap
 myCarousel.addEventListener('slide.bs.carousel', event => {
+     //capturp el el indice el slide actual
    let slideActual = event.to;
     if(slideActual == 0)  {
          audio1.play();
@@ -37,6 +38,7 @@ myCarousel.addEventListener('slide.bs.carousel', event => {
 // Detengo todos los audios menos el que suena actualmente
 //  para evitar que queden sonando varios audios al mismo tiempo
 function stopAudios(id) {
+     //obtenengo todos los elementos <audio> en el documento y los almaceno en la variable audios.
    var audios = document.getElementsByTagName('audio');
    
    for (var i = 0; i < audios.length; i++) {
@@ -44,6 +46,7 @@ function stopAudios(id) {
       audios[i].play();
     } else {
       audios[i].pause();
+      //reinicio el audio 
       audios[i].currentTime = 0;
     }
   }

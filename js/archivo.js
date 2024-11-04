@@ -6,6 +6,7 @@ const comentario = document.getElementById("floatingTextarea");
 const textoform= document.getElementsByClassName("textocontacto")[0];
 
 // Al hacer clic en el botón de empezar, ocultamos el botón y el formulario, y mostramos una imagen de justin
+
 botonEnviar.addEventListener('click', function() {
     // Verifica que ambos campos no estén vacíos
     if (email.value.trim() === "" || comentario.value.trim() === "") {
@@ -13,7 +14,8 @@ botonEnviar.addEventListener('click', function() {
     } else if(!validarEmail()) {
        alert("Tu email no es válido, utiliza @.");
     } else {
-        $('#emailModal').modal('show');
+       // Si todos los campos son válidos, se muestra el modal 
+        $('#emailModal').modal('show'); // Muestro el modal usando jQuery
         contactoForm.style.display = 'none';
         textoform.style.display='none';
         fondo.style.display = 'block';
@@ -24,8 +26,10 @@ botonEnviar.addEventListener('click', function() {
 
 function validarEmail() {
     const email = document.getElementById('floatingInput').value;
+     // Utilizo expresiones regulares para validar el formato del email
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  
+
+    // Verifico si el email cumple con el patrón definido por la expresión regular
     if (regex.test(email)) {
       // El email es válido
       return true;
