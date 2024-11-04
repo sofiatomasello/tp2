@@ -35,7 +35,7 @@ myCarousel.addEventListener('slide.bs.carousel', event => {
 })
 
 // Detengo todos los audios menos el que suena actualmente
-// es para evitar que queden sonando varios audios al mismo tiempo
+//  para evitar que queden sonando varios audios al mismo tiempo
 function stopAudios(id) {
    var audios = document.getElementsByTagName('audio');
    

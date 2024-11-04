@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- Barrra de navegacion-->
 <header>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark " >
@@ -31,7 +32,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-light" href="../conocelomas/entrevista.html">Conexión Bieber</a>
+                <a class="nav-link text-light" href="../conexionbieber/entrevista.html">Conexión Bieber</a>
               </li>
 
 
@@ -55,6 +56,7 @@
                     <li><a class="dropdown-item text-light" href="../albums/index.html">Albums</a></li>
                     <li><a class="dropdown-item text-light" data-bs-toggle="modal" data-bs-target="#modalColaboraciones" href="#">Colaboraciones</a></li>
                 </ul>
+              </ul>  
           </div>
         </div>
       </nav>
@@ -62,36 +64,38 @@
 
 
 <main>
-<img class="rounded mx-auto d-block" src="../ropa/imagenes/logodrew.png" alt="Logo de la marca Drew House" width="25%" style="margin-top: 1.5em;">
+    <!-- logo de la pagina-->
+<img class="rounded mx-auto d-block" src="../ropa/imagenes/logodrew.png" alt="Logo de la marca Drew House"  style="margin-top: 1.5em; width: 25%;">
 
 <article class="conteinerropa">
   <div class="row">
     <div class="col-lg-6">
    <p style="margin: 2em; " class="text-center">Drew, la marca de moda creada por Justin Bieber, es mucho más que una simple línea de ropa. Lanzada en 2020, esta firma refleja la evolución del estilo personal del cantante, fusionando la comodidad que busca en su día a día con una estética moderna y minimalista que ha cautivado a sus seguidores. La filosofía de Drew se basa en la idea de crear prendas atemporales y versátiles, que puedan adaptarse a cualquier ocasión. Los materiales de alta calidad y las técnicas de producción responsables son pilares fundamentales de la marca, demostrando un compromiso genuino con la sostenibilidad y el cuidado del medio ambiente. La paleta de colores neutros y suaves, característica de Drew, crea una sensación de calma y equilibrio, invitando a quienes la visten a expresar su individualidad sin esfuerzo. Más allá de las tendencias pasajeras, Drew busca construir una comunidad de personas que valoran la autenticidad, la comodidad y el estilo de vida consciente.</p>
-   <img style="width: 15%; float: right; margin-right: 4em;" src="../ropa/imagenes/logo.png" alt="">
+   <img style="width: 15%; float: right; margin-right: 4em;" src="../ropa/imagenes/logo.png" alt="logo carita feliz drew">
   </div>
     <div class="col-lg-6">
-      <img class="rounded mx-auto d-block" style="margin-top: 2em;" src="../ropa/imagenes/modelo.jpg" alt="">
+      <img class="rounded mx-auto d-block" style="margin-top: 2em;" src="../ropa/imagenes/modelo.jpg" alt="Modelo de drew house">
     </div>
 </div>
 
 
+  <!-- Galeria de fotos aplicando slides -->
 <section class="contenedorgaleria">
   <div class="row">
     <div class="col-md-10 col-lg-10 col-sm-10 col-9">
 <div id="carouselRopa" class="carousel slide" data-bs-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="../ropa/imagenes/1.png" class="d-block w-100" alt="...">
+      <img src="../ropa/imagenes/1.png" class="d-block w-100" alt="Ropa Drew House">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../ropa/imagenes/2.png" class="d-block w-100" alt="...">
+      <img src="../ropa/imagenes/2.png" class="d-block w-100" alt="Ropa Drew House">
     </div>
     <div class="carousel-item">
-      <img src="../ropa/imagenes/3.png" class="d-block w-100" alt="...">
+      <img src="../ropa/imagenes/3.png" class="d-block w-100" alt="Ropa Drew House">
     </div>
     <div class="carousel-item">
-      <img src="../ropa/imagenes/4.png" class="d-block w-100" alt="...">
+      <img src="../ropa/imagenes/4.png" class="d-block w-100" alt="Ropa Drew House">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselRopa" data-bs-slide="prev">
@@ -110,13 +114,7 @@
 </div>
 
 </section>
-
-
-
-
-
 </article>
-
 </main>
 
 
@@ -124,12 +122,13 @@
   <address class="footer text-light">
     ¡Para contactarse con nosotros, escribir a <a class="text-light" href="mailto:jbfans@gmail.com">jbfans@gmail.com</a>!
     <br>
-    <a class="text-light" href=https://www.instagram.com/sofitomasello/" target="_blank">
-      <img class="logoinstagram" src="../imagene-home-page/Instagram.png" alt="Instagram Logo" />
+    <a class="text-light" href="https://www.instagram.com/sofitomasello/" target="_blank">
+      <img class="logoinstagram" src="../imagene-home-page/instagram.png" alt="Instagram Logo">
     </a>
+  </address>
 </footer>
 
-<!-- Modal Colaboraciones-->
+<!-- Modal de la pagina Colaboraciones-->
 <div class="modal fade" id="modalColaboraciones" tabindex="-1" aria-labelledby="modalColaboracionesLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
@@ -141,28 +140,33 @@
         <main class="conteinercolaboraciones">
           <section>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="false">
+
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img width="40%" src="../albums/imagenes/fotomusica/whereareunow.png" alt=" Foto de la cancion Where are U now de Justin Bieber">
+                  <img style="width: 40%;" src="../albums/imagenes/fotomusica/whereareunow.png" alt=" Foto de la cancion Where are U now de Justin Bieber">
                   <p style="margin-top: 1em;">"Where are U now" feat. Skrillex y Diplo</p>
-                  <audio id="audioPlayer1" src="../albums/audios/Skrillex and Diplo - Where Are Ü Now with Justin Bieber (Official Video).mp3"></audio>
+                  <audio id="audioPlayer1" src="../albums/audios/skrillexanddiplo.mp3"></audio>
                 </div>
+
                 <div class="carousel-item">
-                  <img width="40%" src="../albums/imagenes/fotomusica/despacito.png" alt="Foto de la cancion Despacito de Justin Bieber">
-                  <audio id="audioPlayer2" src="../albums/audios/Luis Fonsi, Daddy Yankee - Despacito (Audio) ft. Justin Bieber.mp3"></audio>
+                  <img style="width: 40%;" src="../albums/imagenes/fotomusica/despacito.png" alt="Foto de la cancion Despacito de Justin Bieber">
+                  <audio id="audioPlayer2" src="../albums/audios/despacito.mp3"></audio>
                   <p style="margin-top: 1em;">"Despacito" feat. Luis Fonsi y Daddy Yankee</p>
                 </div>
+
                 <div class="carousel-item">
-                  <img width="40%" src="../albums/imagenes/fotomusica/imtheone.png" alt="Foto de la cancion Im the one de Justin Bieber">
-                  <audio id="audioPlayer3" src="../albums/audios/DJ Khaled - I'm the One ft. Justin Bieber, Chance the Rapper, Lil Wayne (Lyrics  Lyric Video).mp3"></audio>
+                  <img style="width: 40%;" src="../albums/imagenes/fotomusica/imtheone.png" alt="Foto de la cancion Im the one de Justin Bieber">
+                  <audio id="audioPlayer3" src="../albums/audios/imtheone.mp3"></audio>
                   <p style="margin-top: 1em;">"Im the one" feat. DJ Khaled, Quavo, Chance the Rapper, y Lil Wayne</p>
                 </div>
+
                 <div class="carousel-item">
-                  <img width="40%" src="../albums/imagenes/fotomusica/stay.png" alt="Foto de la cancion Stay de Justin Bieber">
-                  <audio id="audioPlayer4" src="../albums/audios/The Kid LAROI, Justin Bieber - STAY (Official Video).mp3"></audio>
+                  <img style="width: 40%;" src="../albums/imagenes/fotomusica/stay.png" alt="Foto de la cancion Stay de Justin Bieber">
+                  <audio id="audioPlayer4" src="../albums/audios/stay.mp3"></audio>
                   <p style="margin-top: 1em;">"Stay" feat.The Kid LAROI</p>
                 </div>
               </div>
+              
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>

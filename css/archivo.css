@@ -91,7 +91,7 @@ text-align: center;
 .conteinerropa{
   width: 90%;
   margin: 0 auto;
-  text-align: center; /* Centra el contenido de texto */
+  text-align: center; 
 }
 
 
@@ -105,7 +105,7 @@ text-align: center;
 /* Estilos para los links */
 
 a:link {color: #ffffff !important;}
-a:visited{ color: rgba(255, 255, 255, 0.988) !important; }
+a:visited{ color: rgba(246, 196, 14, 0.988) !important; }
 a:hover { color: #ba0bff !important;}
 a:active{color: rgb(218, 28, 28) !important;}
 
@@ -123,12 +123,12 @@ form{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; /* Esto centra verticalmente */
+  align-items: center; 
   background-color: black;
   padding: 2em;
   margin: 0 auto;
   margin-top:1em;
-  color: white; /* Para que el texto sea visible sobre el fondo negro */
+  color: white; 
 }
 
 .conteinerhistoria{
@@ -153,13 +153,7 @@ margin-top: 5em;
   width: 100%;
   text-align: center;
   margin-top: 1em;
-  
- 
-  
 }
-
-
-
 
 .videojustinchico{
   width: 100%;
@@ -223,7 +217,6 @@ border-radius: 0.5em;
 
   .conteinerfotos {
       width: 90%;
-    
     }
 
     .imagenimpacto{
@@ -272,7 +265,7 @@ width: 80%;
 
 
 
-  /* Para grandes */
+  /* Para pantallas grandes */
   @media (min-width:991px) {
       .logo{
     width: unset;
@@ -299,8 +292,8 @@ width: 80%;
 
             .contenedorgaleria img {
               text-align: center;
-              max-width: 80%; /* Ajusta el tamaño según sea necesario */
-              height: auto; /* Mantiene la proporción */
+              max-width: 80%; 
+              height: auto; 
               margin: 0 auto;
           }
           
@@ -330,6 +323,6 @@ width: 80%;
       }
             
             
-            }
+     }
 
 
